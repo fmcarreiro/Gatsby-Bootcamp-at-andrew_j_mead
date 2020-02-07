@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
+
 const ContactPage = () => {
   return (
     <div>
-      <Header />
+      <Layout >
       <h1>Contact Page</h1>
       <p> The best way to reach me is via @fmcarreiro on Twitter!</p>
       <p>
@@ -16,7 +16,7 @@ const ContactPage = () => {
       <p>
         <Link to="/">Back to Home.</Link>
       </p>
-      <Footer />
+      </Layout>
     </div>
   )
 }

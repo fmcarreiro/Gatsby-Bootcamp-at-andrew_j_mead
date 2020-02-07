@@ -1,11 +1,9 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from '../components/footer'
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Hello.</h1>
       <h2>
         I'm Felipe, a full-stack developer living in beautiful Vitória/ES.
@@ -13,9 +11,9 @@ const IndexPage = () => {
       <p>
         Need a developer? <a href="/contact">Contact me</a>
       </p>
-      <Footer/>
-    </div>
+    </Layout>
   )
+
 }
 
 export default IndexPage

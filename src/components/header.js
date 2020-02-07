@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 const Header = () => {
   return (
     <header>
+        <h1>Felipe Carreiro</h1>
       <nav>
         <ul>
           <li>
