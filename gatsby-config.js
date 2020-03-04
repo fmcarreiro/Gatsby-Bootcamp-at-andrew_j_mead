@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Full-stack Bootcamp",
+    author: "Felipe Carreiro",
+    twitter: "@fmcarreiro"
+  },
   plugins: [`gatsby-plugin-sass`],
 }
